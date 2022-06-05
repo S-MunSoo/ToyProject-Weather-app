@@ -10,8 +10,8 @@
 
 #### API 참고 문서
 
-[API 문서](https://openweathermap.org/api)
-API URL : https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+[API 문서](https://openweathermap.org/api)<br>
+API URL : https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}<br>
 API KEY : 768488f9727d306b81da906732c1ce45
 
 #### 사용기술스택
