@@ -4,7 +4,10 @@ import { Button } from "react-bootstrap";
 const WeatherButton = ({ cities, setCity, handleCityChange }) => {
   return (
     <div className="weather-button">
-      <Button variant="warning" onClick={() => handleCityChange("current")}>
+      <Button
+        variant={`${setCity === "" ? "outline-warning" : "warning"}`}
+        onClick={() => handleCityChange("current")}
+      >
         Current Location
       </Button>
       {/* JS 사용하고싶으면 {} 써야한다. */}
@@ -12,7 +15,12 @@ const WeatherButton = ({ cities, setCity, handleCityChange }) => {
 
       {cities.map((citiesBtn) => {
         return (
-          <Button variant="warning" onClick={() => setCity(citiesBtn)}>
+          <Button
+            variant={`${
+              setCity === "citiesBtn" ? "outline-warning" : "warning"
+            }`}
+            onClick={() => setCity(citiesBtn)}
+          >
             {citiesBtn}
           </Button>
         );

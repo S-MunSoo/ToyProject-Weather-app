@@ -14,15 +14,59 @@ body {
   height: 100vh;
 }
 .weather-Box {
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   padding: 50px;
-  border-radius: 30px;
+  border-radius: 26px;
+  padding: 50px;
+  max-width: 700px;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(52, 52, 52, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /* background-color: azure; */
+}
+.weather-Box div {
+  font-size: 20px;
+  font-weight: 700;
+}
+.weather-Box h3 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #28a745 !important;
+}
+.weather-Box h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: orange !important;
+}
+.weather-Box h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #17a2b8 !important;
 }
 .weather-button {
   border: 2px solid black;
+  max-width: 700px;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 60px;
+  background-color: #000;
+  margin: 30px;
+  padding: 30px;
+  font-weight: bold;
 }
-
+.weather-button button:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 18px;
+}
 .lds-dual-ring {
   display: inline-block;
   width: 80px;

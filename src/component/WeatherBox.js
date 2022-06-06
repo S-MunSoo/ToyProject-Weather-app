@@ -13,7 +13,7 @@ const weatherBox = ({ weather }) => {
         최저온도 : {weather && weather.main.temp_min} / 최고온도:{" "}
         {weather && weather.main.temp_max}
       </h4>
-      <h4>{weather && weather.weather[0].description}</h4>
+      <h5>{weather && weather.weather[0].description}</h5>
     </div>
   );
 };
