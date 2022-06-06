@@ -1,6 +1,6 @@
 ### React 두번째 토이프로젝트 날씨 미니app
 
-![re](https://user-images.githubusercontent.com/102017296/172171942-2c52795b-24a2-4e5a-a826-de0946e28779.mov)
+https://user-images.githubusercontent.com/102017296/172171942-2c52795b-24a2-4e5a-a826-de0946e28779.mov
 
 #### 구현 로드맵
 
