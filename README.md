@@ -1,5 +1,7 @@
 ### React 두번째 토이프로젝트 날씨 미니app
 
+[](https://user-images.githubusercontent.com/102017296/172171942-2c52795b-24a2-4e5a-a826-de0946e28779.mov)
+
 #### 구현 로드맵
 
 - 1. 현재위치의 날씨를 볼 수 있다.(지역,온도,날씨 상태)
